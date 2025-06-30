@@ -190,3 +190,44 @@ nav a:hover {
   color: #9e4edd;
   margin-top: 8px;
 }
+
+#contact {
+  background-color: #efe1ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-size: 28px;
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #3d004d;
+  margin: 8px 0;
+}
+
+.contact-details p {
+  font-weight: 500;
+}
+
+.contact-details a {
+  color: #7d29cc;
+  text-decoration: none;
+}
+
+.contact-details i {
+  color: #7d29cc;
+  margin-right: 8px;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
