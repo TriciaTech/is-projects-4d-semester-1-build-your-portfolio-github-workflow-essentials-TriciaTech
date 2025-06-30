@@ -13,7 +13,7 @@
     <nav>
       <h1>TriciaTech</h1>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#profile">Profile</a></li>
         <li><a href="#showcase">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -22,12 +22,12 @@
   </header>
 
   <!-- Landing Section -->
-  <section id="landing">
-    <div class="intro">
-      <h2>Hello, I’m Patricia</h2>
-      <p>Welcome to my personal portfolio, where I highlight my work, skills and experience in tech.</p>
-    </div>
-  </section>
+   <section id="home" class="hero-section">
+  <div class="hero-content">
+    <h1>Hi, I’m Patricia</h1>
+    <p>Welcome to my personal portfolio; where I highlight my work, skills and experience in tech.</p>
+  </div>
+</section>
 
   <section id="profile">
   <div class="profile-card">
@@ -79,6 +79,27 @@
     </div>
   </div>
 </section>
+<button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+  // Show button after scrolling 200px
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Scroll back to top
+  document.getElementById("backToTop").addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
 
 </body>
 </html>
