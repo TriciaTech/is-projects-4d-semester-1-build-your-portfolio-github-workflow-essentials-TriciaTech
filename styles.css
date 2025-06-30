@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f5fc; /* soft lavender */
+  color: #2c003e; /* deep plum text */
+}
+
+/* Header and Navbar */
+header {
+  background-color: #6a0dad; /* royal purple */
+  padding: 20px 0;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #f3e9ff; /* lilac white */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcbff; /* pinkish lavender */
+  text-decoration: underline;
+}
+
+/* Landing section */
+#landing {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #e6ccff; /* pastel violet */
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #4b0082; /* indigo */
+}
+
+.intro p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #3d004d; /* deep grape */
+}
