@@ -6,6 +6,11 @@ body {
   color: #2c003e; /* deep plum text */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Header and Navbar */
 header {
   background-color: #6a0dad; /* royal purple */
@@ -67,4 +72,67 @@ nav a:hover {
   max-width: 600px;
   margin: 0 auto;
   color: #3d004d; /* deep grape */
+}
+
+/* Profile Section */
+#profile {
+  padding: 60px 20px;
+  background-color: #f3e9ff; /* light lilac background */
+  text-align: center;
+}
+
+.profile-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(106, 13, 173, 0.15); /* soft purple shadow */
+  padding: 30px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #b366ff; /* soft violet ring */
+  margin: 20px 0;
+}
+
+.profile-card h2 {
+  color: #6a0dad; /* bold purple */
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+
+.profile-card h4 {
+  color: #a34cd6; /* lighter lavender */
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.school {
+  color: #7d29cc; /* deep amethyst */
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.fun-fact {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #5e0174; /* rich plum */
+}
+
+.mini-heading {
+  font-size: 20px;
+  color: #7d29cc;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.animal-desc {
+  font-size: 16px;
+  color: #3d004d; /* dark berry */
+  line-height: 1.6;
 }
