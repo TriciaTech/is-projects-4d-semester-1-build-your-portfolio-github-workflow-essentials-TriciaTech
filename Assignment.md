@@ -2,15 +2,15 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **Admission Number**:
-- **GitHub Username**:
-- **Email**:
+- **Full Name**:Mwaura Patricia Wangu
+- **Admission Number**:143886
+- **GitHub Username**:TriciaTech
+- **Email**:patricia.mwaura@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+  (https://triciatech.github.io/is-projects-4d-semester-1-build-your-portfolio-github-workflow-essentials-TriciaTech/)
 
 ## 3. Learnings from the Git Crash Program
 
@@ -25,16 +25,37 @@ And how it helped with your personal portfolio project 💻
 
 make it honest—and if it surprised you, even better!
 
-Example format:
+1. Concept: Pull Requests
 
-**🧠 What I Thought I'd Learn vs What I Actually Learned**
-**1. Concept: Branching**
+Expectation: I assumed pull requests were mainly used in large teams, just a formality to approve code changes.
 
-`Expectation 👀` : I thought branching was just for developers working on big apps—nothing I’d need for a small project.
+Reality: I discovered they are an essential tool for collaboration. They serve as a checkpoint to review code, discuss changes and resolve conflicts. I even encountered a merge conflict and had to resolve it before merging, something I didn’t expect to deal with.
 
-`Reality 😅`: Turns out even solo devs need branches! It helped me avoid breaking my main code while testing new designs.
+Impact: This made me more thoughtful about the changes I pushed and improved how I collaborated with my team during the portfolio project.
 
-`Impact 💡`: I created a feature branch for my "About Me" section and merged it smoothly into the main branch after testing. Super useful!
+2. Concept: Commit Messages
+
+Expectation: I believed commit messages could be anything as long as I remembered what I did, there was no need for structure.
+
+Reality: I learned that structured commit messages, using types like feat, style, and docs, not only made the project look more professional but also made it easier to track changes and understand the development history.
+
+Impact: My commit history was organized, and it made debugging or reviewing changes far more manageable, especially when working with others.
+
+3. Concept: Commit Messages
+
+Expectation: I believed commit messages could be anything as long as I remembered what I did—there was no need for structure.
+
+Reality: I learned that structured commit messages, using types like feat, style and docs, not only made the project look more professional but also made it easier to track changes and understand the development history.
+
+Impact: My commit history was organized and it made debugging or reviewing changes far more manageable, especially when working with others.
+
+4. Concept: Cloning vs Forking
+
+Expectation: I thought cloning and forking were basically the same thing, that they both created a copy of the code. 
+
+Reality: I realized forking is used to create your own version of a repository (especially when it’s someone else’s), while cloning is what you do to bring that repository into your local environment to work on it.
+
+Impact: I forked the assignment repository, cloned it locally and worked from my own version. This gave me the confidence to experiment and contribute without worrying about affecting the original source.
 
 ## 4. Screenshots of Key GitHub Features
 
@@ -50,19 +71,22 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### A. Milestones and Issues
 
 - Screenshot showing your milestone(s) and the issues linked to it.
+![Milestones and the issues linked to them](<Screenshot 2025-07-01 091054.png>)
+![Issues with the attached labels and milestones](image.png)
 
 ### B. Project Board
 
 - Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+![Project Board](image-1.png)
 
 ### C. Branching
 
 - Screenshot showing your branch list with meaningful naming.
+![List of branches](image-2.png)
 
 ### D. Pull Requests
 
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
+![Merged pull requests](image-3.png)
 
-### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
