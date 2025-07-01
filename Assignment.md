@@ -41,13 +41,13 @@ Reality: I learned that structured commit messages, using types like feat, style
 
 Impact: My commit history was organized, and it made debugging or reviewing changes far more manageable, especially when working with others.
 
-3. Concept: Commit Messages
+3. Concept: GitHub Project Boards
 
-Expectation: I believed commit messages could be anything as long as I remembered what I did—there was no need for structure.
+Expectation: I thought the project board was just a decorative feature, more of an optional extra than something we’d actually rely on.
 
-Reality: I learned that structured commit messages, using types like feat, style and docs, not only made the project look more professional but also made it easier to track changes and understand the development history.
+Reality: It became a central part of how I managed my tasks. Moving items from "To Do" to "In Progress" and then to "Done" gave me a real sense of structure and progress.
 
-Impact: My commit history was organized and it made debugging or reviewing changes far more manageable, especially when working with others.
+Impact: It helped me stay on track and manage my work across different parts of the portfolio, from the landing page to the final touches.
 
 4. Concept: Cloning vs Forking
 
