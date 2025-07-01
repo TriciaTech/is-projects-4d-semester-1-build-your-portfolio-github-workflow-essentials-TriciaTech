@@ -17,7 +17,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #e6ccff; /* pastel violet */
+  background-color: #3d004;
   z-index: 999;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -48,14 +48,14 @@ nav ul {
 }
 
 nav a {
-  color: #f3e9ff; /* lilac white */
+  color: #6a0352; 
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #ffcbff; /* pinkish lavender */
+  color: #ffcbff; 
   text-decoration: underline;
 }
 
